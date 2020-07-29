@@ -271,6 +271,7 @@ footer {
 .contact-cont {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 20px;
   background-color: #0fabbc;
   box-shadow: inset #148794 0px 0px 100px 1px;
@@ -325,6 +326,7 @@ margin-top: 10px; */
 .contact-par p {
   color: white;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .hide-reverse {
@@ -360,11 +362,15 @@ a[target='_blink']{
 
 @media (max-width: 600px) {
   .input-cont input {
-    width: 200px;
+    width: 150px;
+    height: 40px;
+  }
+  .input-cont button {
+   padding: 7px 20px ;
   }
 
   .overlay h1 {
-    font-size: 30px;
+    font-size:25px;
   }
   .teaser-cont {
     width: 90%;
