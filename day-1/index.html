@@ -1,83 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PhotoTake</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<header>
+  <header>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>about</li>
-            <li>contact us</li>
-            <li>categories</li>
-            <li>search</li>
+      <ul class="hide">
+        <li>Home</li>
+        <li>about</li>
+        <li>contact us</li>
+        <li>categories</li>
+        <li>search</li>
+      </ul>
 
+      <ul class="slide">
+        <li>Home</li>
+        <li>about</li>
+        <li>contact us</li>
+        <li>categories</li>
+        <li>search</li>
+      </ul>
 
-        </ul>
+      <i class="fa fa-bars hide-reverse" aria-hidden="true"></i>
 
-        <a href="#">PhotoTake</a>
+      <a href="#">PhotoTake</a>
     </nav>
-</header>
+  </header>
 
-<body>
-<div class="alert">
-    <p>Big discount 80% for the next 12hrs</p>
-    <i class="fa fa-times" aria-hidden="true"></i>
-
-    
-</div>
-
-<div class="cover-cont">
-    <img class="cover" src="./cover.jpg" alt="">
-   <div class="overlay">
-
-       <h1>take your photos to the next level</h1>
-    <div class="input-cont">
-        <input placeholder="photo,cameras,articles ..."/>
-        <button>search</button>
+  <body>
+    <div class="alert">
+      <p>Big discount 80% for the next 12 hrs</p>
+      <i class="fa fa-times close" aria-hidden="true"></i>
     </div>
-   </div>
 
-</div>
+    <div class="cover-cont">
+      <img class="cover" src="./files/cover.jpg" alt="" />
+      <div class="overlay">
+        <h1>take your photos to the next level</h1>
+        <div class="input-cont">
+          <input placeholder="photo,cameras,articles ..." />
+          <button>search</button>
+        </div>
+      </div>
+    </div>
 
-<div class="info-cont">
-    <div class="info">
-        <i class="fa fa-picture-o" aria-hidden="true"></i>
+    <div class="teaser-cont">
+      <img src="./files/1.svg" alt="" />
+      <div class="teaser-par">
+        <h2>Find the photos you like</h2>
+        <p>
+          more than 1000 stock picture that you can use in your own work or any
+          public or private project
+        </p>
+      </div>
+    </div>
+
+    <div class="teaser-cont">
+      <div class="teaser-par">
+        <h2>start a business</h2>
+        <p>
+          publish your own taken stock photos and start making money with more
+          than 1000 000 000 photographer
+        </p>
+      </div>
+      <img src="./files/2.svg" alt="" />
+    </div>
+
+    <div class="info-cont">
+      <div class="info">
+        <div class="icon-cont">
+          <i class="fa fa-picture-o" aria-hidden="true"></i>
+        </div>
 
         <h6>Stok photos</h6>
         <p>find all the photo that you will need for your own project</p>
-    </div>
+      </div>
 
-    <div class="info">
-        <i class="fa fa-camera-retro"></i>
+      <div class="info">
+        <div class="icon-cont">
+          <i class="fa fa-camera-retro"></i>
+        </div>
 
         <h6>The right camera</h6>
-        <p>choose and compare between thousands of cameras to find the right one for you </p>
-    </div>
+        <p>
+          choose and compare between thousands of cameras to find the right one
+          for you
+        </p>
+      </div>
 
-    <div class="info">
-        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+      <div class="info">
+        <div class="icon-cont">
+          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+        </div>
 
         <h6>Boost your knowledge</h6>
-        <p>discover millions of articles tips and tricks that will help you in your carrier</p>
+        <p>
+          discover millions of articles tips and tricks that will help you in
+          your carrier
+        </p>
+      </div>
     </div>
-</div>
 
+    <div class="teaser-cont">
+      <img src="./files/3.svg" alt="" />
+      <div class="teaser-par">
+        <h2>don't find what you want?</h2>
+        <p>
+          there is more than 1000 000 000 around the world that are ready to
+          take the pictures for you with your personal perefrences
+        </p>
+      </div>
+    </div>
 
+    <div class="contact-cont">
+      <div class="contact-par">
+        <h1>contact us</h1>
+        <p>we are available for 24/7 so try make us busy</p>
+      </div>
 
-</body>
+      <div class="contact-input-cont">
+        <label for="email">Email</label>
+        <input id="email" type="text" />
 
-<footer>
-    &copy; copy right for losefor 2020 
-</footer>
+        <label for="message-title">Message title </label>
+        <input id="message-title" type="text" />
 
+        <label for="message">Message</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
 
+        <button type="submit" placeholder="Submit">Submit</button>
+      </div>
+    </div>
+  </body>
 
+  <footer>
+    &copy; All the rights reserved for <a target="_blink" href="https://www.instagram.com/m_losefor/">losefor</a>  2020
+  </footer>
+
+  <script src="./index.js"></script>
 </html>
