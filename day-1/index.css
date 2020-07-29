@@ -1,0 +1,212 @@
+body,
+a,
+ul,
+ol,
+a,
+button,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling the nav 
+============================== */
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0fabbc;
+}
+
+/* styling the links */
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  border-bottom: thick solid transparent;
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.034);
+  border-bottom: thick solid white;
+  cursor: pointer;
+}
+/* styling the brand */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  transition: .3s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+
+.alert{
+  background-color: #cf1b1b;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.fa-times{
+  color: #680000;
+  padding: 20;
+  transition: .3s;
+}
+.fa-times:hover{
+  color: #440101;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+/* styling the cover
+========================= */
+.cover-cont {
+  position: relative;
+}
+.cover {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  flex: 1;
+}
+
+.overlay h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+/* styling the input */
+
+.input-cont input {
+  width: 800px;
+  height: 50px;
+}
+.input-cont button {
+  background-color: #12cad6;
+  color: white;
+  display: inline-block;
+  padding: 13px 20px;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 22px;
+  outline: none;
+  border: none;
+  transition: .3s;
+}
+
+.input-cont button:hover {
+  background-color: #0fabbc;
+}
+/* styling the info container 
+================================= */
+.info-cont{
+    background-color: #e9e9e9 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: 350px;
+    transition: .3s ease-in-out;
+    background-color: #0fabbc;
+    margin: 10px ;
+    border-radius: 5px;
+}
+
+.info h6{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info p {
+   color: #e4f9ff;
+   text-align: center;
+   font-family: 'Roboto' , sans-serif;
+}
+
+.info i{
+  font-size: 100px;
+  color: white;
+  /* background-color: red; */
+}
+
+.info:hover {
+  transform: scale(1.1);
+}
+
+footer{
+  background-color: rgb(37, 37, 37);
+  color:white ; 
+  text-align: center;
+  padding: 10px 0 ;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 1500px) {
+    .input-cont input {
+      width: 400px;
+    }
+  
+    .overlay h1 {
+      font-size: 40px;
+    }
+  }
+  
+
+@media (max-width: 600px) {
+  .input-cont input {
+    width: 200px;
+  }
+
+  .overlay h1 {
+    font-size: 30px;
+  }
+
+}
