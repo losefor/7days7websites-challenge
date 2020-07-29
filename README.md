@@ -1,14 +1,14 @@
 
 # first day - Photo and cameras app 
-**it's a websit about photographers**
+**it's a websit about photographers where you can search for cameras , articles , or even stock photos **
 
-### Laptop Screen shot
+### Laptop Screenshot
 - futuristic design with cover photo and overlays
 - resbonsive vector images with flex
 - alert component - to notify the custome with big changes and notifications 
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-1/files/laptop.png?raw=true)
 
-### Phone Screen shot
+### Phone Screenshot
 - this site is resbonsive for the phones with all screen sizes
 - menue component
 
