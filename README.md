@@ -1,6 +1,6 @@
 
 # first day - Photo and cameras app 
-**it's a websit about photographers where you can search for cameras , articles , or even stock photos **
+**it's a websit about photographers where you can search for cameras , articles , or even stock photos**
 
 ### Laptop Screenshot
 - futuristic design with cover photo and overlays
