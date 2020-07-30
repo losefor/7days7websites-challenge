@@ -16,3 +16,21 @@
 
 
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-1/index.html)
+
+# second day - Photo and cameras app
+
+**it's a futuristic sign in form with modern and resbonsive design**
+
+- futuristic desgin 
+- with fancy animation 
+- avialable oauth2 buttons 
+- with modern UX/UI design 
+
+
+### Laptop Screenshot
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-2/files/laptop.png?raw=true)
+
+### Phone Screenshot
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-2/files/phone.png?raw=true)
+
+[preview the website](https://losefor.github.io/7days7websites-challenge/day-2/index.html)
