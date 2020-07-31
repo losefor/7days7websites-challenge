@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color generator</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="first">
+      <span
+        id="first-label"
+        class="first-label label"
+        onclick="CopyToClipboard('first-label')"
+        ></span
+      >
+    </div>
+    <div class="second">
+      <span
+        id="second-label"
+        class="second-label label"
+        onclick="CopyToClipboard('second-label')"
+      ></span>
+    </div>
+    <div class="third">
+      <span
+        id="third-label"
+        class="third-label label"
+        onclick="CopyToClipboard('third-label')"
+      ></span>
+    </div>
+    <div class="fourth">
+      <span
+        id="fourth-label"
+        class="fourth-label label"
+        onclick="CopyToClipboard('fourth-label')"
+      ></span>
+    </div>
+
+    <button class="random">
+      <i class="fa fa-random" aria-hidden="true"></i>
+    </button>
+
+    <script src="./colors.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

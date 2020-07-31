@@ -17,8 +17,8 @@
 
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-1/index.html)
 
-# second day - Photo and cameras app
 
+# second day - Signup form
 **it's a futuristic sign in form with modern and resbonsive design**
 
 - futuristic desgin 
@@ -26,11 +26,25 @@
 - avialable oauth2 buttons 
 - with modern UX/UI design 
 
-
 ### Laptop Screenshot
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-2/files/laptop.png?raw=true)
-
 ### Phone Screenshot
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-2/files/phone.png?raw=true)
 
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-2/index.html)
+
+
+
+# third day - Random color pallete generator
+
+**futuristic design of a random color pallete generator**
+
+- animation 
+- random generator
+- able to copy the color 
+
+### Laptop Screenshot
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-3/files/laptop.png?raw=true)
+### Phone Screenshot
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-3/files/phone.png?raw=true)
+[preview the website](https://losefor.github.io/7days7websites-challenge/day-3/index.html)

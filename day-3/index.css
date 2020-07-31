@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+div {
+  margin: 0px;
+  position: relative;
+}
+.first {
+  height: 34vh;
+  transition: .3s;
+}
+.second,
+.third,
+.fourth {
+  height: 22vh;
+  transition: .3s;
+}
+
+.first:hover .first-label,
+.second:hover .second-label,
+.third:hover .third-label,
+.fourth:hover .fourth-label {
+  opacity: 1;
+}
+
+
+.first-label,
+.second-label,
+.third-label,
+.fourth-label {
+  opacity: 0;
+  transition: 0.3s;
+  text-transform: uppercase;
+  user-select: none;
+
+}
+
+.first-label:hover,
+.second-label:hover,
+.third-label:hover,
+.fourth-label:hover {
+  background-color: rgba(0, 0, 0, 0.424);
+}
+
+span {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.26);
+  padding: 5px 10px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.label {
+  cursor: pointer;
+  /* background-color: black; */
+}
+
+.random{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
