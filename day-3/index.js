@@ -52,6 +52,10 @@ function pickColor() {
 
 //when click the random button reselecting the colors
 random.addEventListener("click", () => {
+  firstLabel.style.opacity = '0'
+  secondLabel.style.opacity = '0'
+  thirdLabel.style.opacity = '0'
+  fourthLabel.style.opacity = '0'
   pickColor();
 });
 
