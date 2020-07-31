@@ -23,7 +23,7 @@ div {
 .second:hover .second-label,
 .third:hover .third-label,
 .fourth:hover .fourth-label {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 
