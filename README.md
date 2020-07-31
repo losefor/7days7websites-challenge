@@ -44,7 +44,11 @@
 - able to copy the color 
 
 ### Laptop Screenshot
+
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-3/files/laptop.png?raw=true)
+
 ### Phone Screenshot
+
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-3/files/phone.png?raw=true)
+
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-3/index.html)
