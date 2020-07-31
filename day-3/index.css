@@ -68,8 +68,13 @@ span {
     background-color: white;
     width: 60px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     font-size: 25px;
     border: none;
     cursor: pointer;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.096) 0px 0px 10px 1px ;
 }

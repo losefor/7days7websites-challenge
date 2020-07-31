@@ -8,7 +8,7 @@ const thirdLabel = document.querySelector(".third-label");
 const fourthLabel = document.querySelector(".fourth-label");
 const random = document.querySelector(".random");
 
-
+var rotaition = 360 ; 
 //a function for creating random number
 function randoNumber() {
   return Math.floor(Math.random() * colors.length);
@@ -50,6 +50,7 @@ function pickColor() {
   fourthLabel.innerHTML = `#${currentPallete.fourth}`;
 }
 
+console.log( random.style.transform)
 //when click the random button reselecting the colors
 random.addEventListener("click", () => {
   firstLabel.style.opacity = '0'
@@ -57,6 +58,8 @@ random.addEventListener("click", () => {
   thirdLabel.style.opacity = '0'
   fourthLabel.style.opacity = '0'
   pickColor();
+  random.style.transform = `rotate(${rotaition}deg)`;
+  rotaition += 360 ; 
 });
 
 
