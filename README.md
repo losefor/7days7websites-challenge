@@ -16,6 +16,10 @@
 
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-1/files/phone.png?raw=true)
 
+
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-1/files/phone2.png?raw=true)
+
+
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-1/index.html)
 
 # second day - Signup form
