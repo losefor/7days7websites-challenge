@@ -3,7 +3,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-margin-top: 30vh;
+/* margin-top: 300px; */
+/* width: 100% ; */
+
+position: fixed;
+top: 0px ;
+right: 0px;
+left: 0px;
+bottom: 0px;
   
 }
 
@@ -12,6 +19,7 @@ margin-top: 30vh;
   perspective:700px;
   -webkit-perspective:700px;
   position: relative;
+  /* flex: 1; */
 /* background-color: red; */
 
 }
@@ -78,8 +86,9 @@ width: 100%;
   right: 40px;
   bottom: 40px;
   left: 40px;
+  height: 40px;
   background-color: white;
-  padding: 10px 20px;
+  padding: 7px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,3 +98,4 @@ width: 100%;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.144) 0px 0px 10px 1px ;
 }
+
