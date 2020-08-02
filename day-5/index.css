@@ -1,0 +1,81 @@
+body{
+    overflow: hidden;
+}
+
+.color-cont {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgb(143, 143, 143) 0px 0px 3px 1px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* border:  solid black; */
+  margin: 5px;
+  transition: 0.3s ease-out;
+}
+
+.color:hover {
+  transform: scale(1.3);
+  box-shadow: rgb(110, 110, 110) 0px 0px 1px 1px;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
+}
+#white {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(104, 104, 104);
+}
+
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+
+#can {
+  border-radius: 10px;
+}
+
+#clr {
+  background-color: rgb(240, 50, 50);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#clr:hover {
+  background-color: rgb(223, 0, 0);
+}

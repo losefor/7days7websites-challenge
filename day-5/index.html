@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10"
+      type="text/javascript"
+    ></script>
+    <button type="button" id="clr" onclick="erase()" >
+        <i data-vi="cup" data-vi-primary="#ffffff" data-vi-size="40"></i>
+        clear
+    </button>
+  </head>
+  <body onload="init()">
+    <canvas id="can"></canvas>
+    <div class="color-cont">
+      <div id="green" class="color" onclick="color(this)"></div>
+      <div id="blue" class="color" onclick="color(this)"></div>
+      <div id="red" class="color" onclick="color(this)"></div>
+      <div id="yellow" class="color" class="color" onclick="color(this)"></div>
+      <div id="orange" class="color" onclick="color(this)"></div>
+      <div id="black" class="color" onclick="color(this)"></div>
+      <div id="white" class="color" onclick="color(this)">E</div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
