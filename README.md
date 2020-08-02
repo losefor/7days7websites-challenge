@@ -75,4 +75,24 @@
 ![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-4/files/phone.png?raw=true)
 
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-4/index.html)
+
+# fifth day - whiteborad drawing site
+
+**use this site to teach student online or simply just to draw with it**
+
+- Multible colors
+- Erace
+- ability to clear all the board
+- Fancy animation
+
+### Laptop Screenshot
+
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-5/files/laptop.png?raw=true)
+
+### Phone Screenshot
+
+**sorry but this site note available for phones. only for laptops**
+
+[preview the website](https://losefor.github.io/7days7websites-challenge/day-5/index.html)
+ 
  
