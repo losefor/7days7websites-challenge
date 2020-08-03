@@ -107,12 +107,15 @@
 
 ### Laptop Screenshot
 
-![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-5/files/laptop.png?raw=true)
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-6/files/laptop.png?raw=true)
 
 ### Phone Screenshot
 
+
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-6/files/phone.png?raw=true)
+
 **sorry but this site note available for phones. only for laptops**
 
-[preview the website](https://losefor.github.io/7days7websites-challenge/day-5/index.html)
+[preview the website](https://losefor.github.io/7days7websites-challenge/day-6/index.html)
  
  
