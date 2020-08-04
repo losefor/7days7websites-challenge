@@ -116,4 +116,24 @@
 
 [preview the website](https://losefor.github.io/7days7websites-challenge/day-6/index.html)
  
+ # seventh day - paper design
+
+**this is a website that is simulate papers stacking on each others**
+
+- advancd CSS **slectors**
+- advanced CSS **styling**
+- advanced CSS **positioning**
+- advanced CSS **Flex box** 
+
+### Laptop Screenshot
+
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-7/files/laptop.png?raw=true)
+
+### Phone Screenshot
+
+
+![alt text](https://github.com/losefor/7days7websites-challenge/blob/master/day-7/files/phone.png?raw=true)
+
+[preview the website](https://losefor.github.io/7days7websites-challenge/day-7/index.html)
+ 
  
